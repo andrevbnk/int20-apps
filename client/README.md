@@ -1,4 +1,4 @@
-# client
+# pet
 
 ## Project setup
 ```
