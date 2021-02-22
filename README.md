@@ -1,6 +1,11 @@
 # client
 
 ## Project setup
+
+```
+cd client
+```
+
 ```
 npm install
 ```
