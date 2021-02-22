@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-card max-width="284" class="pa-ma-4 ma-lg-4">
-      <router-link :to="{ path: `/animal/${id}`}">
+      <router-link :to="{ path: `/animal/${animal.id}`}">
         <v-img
           :src="animal.image"
           height="200px"
@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  props:['id','animal'],
+  props:['animal'],
     data:()=>({
         show: false,
     }),

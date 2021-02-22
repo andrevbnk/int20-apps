@@ -27,7 +27,7 @@
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn color="primary" href="/register" >Registration?</v-btn>
+          <v-btn color="primary" ><router-link to="/register" style="color:white; text-decoration:none">Registration?</router-link></v-btn>
           <v-btn color="primary" @click="onLogin">Login</v-btn>
         </v-card-actions>
       </v-card>
