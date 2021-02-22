@@ -1,5 +1,5 @@
 <template>
-  <v-row align="center" justify="center" class="mt-3">
+  <v-row align="center" justify="center" class="my-3">
     <v-col cols="12" sm="8" md="4">
       <v-card class="elevation-12">
         <v-toolbar color="primary" dark text>
@@ -51,7 +51,7 @@
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn color="primary" href="/login" >Login?</v-btn>
+          <v-btn color="primary"><router-link to="/login" style="color:white; text-decoration:none">Login?</router-link></v-btn>
           <v-btn color="primary" @click="onRegister" :loading="regLoading"
             >Register</v-btn
           >
