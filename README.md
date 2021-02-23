@@ -1,5 +1,4 @@
-# client
-##Only front(auth ready)
+# Only front(auth ready))
 ## Project setup
 
 ```
