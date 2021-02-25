@@ -1,4 +1,4 @@
-# Only front(auth ready on mysql+vuex)
+# Only front (auth ready on mysql+vuex)
 ## Project setup
 
 ```
